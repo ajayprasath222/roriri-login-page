@@ -1,0 +1,114 @@
+/* General Styles */
+body {
+    background: url('image/edit\ roriri.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+  
+}
+
+.roriri{
+    margin-left: 45px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+  
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.95);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    background-image: transparent;
+  
+    
+}
+
+.card-title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #007bff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Input Field Styles */
+.input-group-text {
+    background-color: transparent;
+    border: none;
+    padding: 0 10px;
+}
+
+.input-group-text img {
+    width: 20px;
+    height: 20px;
+ 
+}
+
+.input-group .form-control {
+    border-radius: 50px;
+    padding-left: 50px;
+}
+
+.input-group .form-control:focus {
+    box-shadow: none;
+    border-color: #007bff;
+}
+
+.input-group-prepend {
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-weight: bold;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Link Styles */
+.text-decoration-none:hover {
+    text-decoration: underline;
+}
+
+.form-check-label {
+    cursor: pointer;
+}
+
+.forget_remember {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.forget_remember .rem {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem; /* Smaller font size for Remember Me */
+}
+
+.forget_remember a {
+    font-size: 1rem; /* Larger font size for Forget Password */
+}
+
+.form-check-input {
+    margin-right: 5px; /* Adjust spacing between checkbox and text */
+    margin-top: -2px; /* Adjust vertical alignment */
+}
